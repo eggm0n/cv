@@ -57,13 +57,13 @@ I have been directly responsible for all server-side development in Scala and al
 Project highlights include developing the core web services in Scala using Play framework and MongoDB and building a custom SaaS licensing solution based on event-sourcing and CQRS in Scala using Akka.
 
 Technology highlights include:
-- unstructured text summarisation
-- calculating time to read based on language complexity heuristics
-- tasks API with full CRUD capability
-- support for customisable 3rd party applications for customers and users.
-- custom WebRTC (video chat) signalling implementation using WebSockets
-- clean architecture style
-- using event sourcing and CQRS design principles to ensure a full recorded history of all system events
+- Unstructured text summarisation
+- Calculating time to read based on language complexity heuristics
+- Tasks API with full CRUD capability
+- Support for customisable 3rd party applications for customers and users.
+- Custom WebRTC (video chat) signalling implementation using WebSockets
+- Clean architecture style
+- Using event sourcing and CQRS design principles to ensure a full recorded history of all system events
 - RESTful API in Akka HTTP
 - Akka, Akka Cluster and Akka Persistence for Command side actor logic and sharding
 - Akka and Akka Persistence Query for Query side event streaming
