@@ -42,7 +42,7 @@ __Web Architecture:__ I am familiar with RESTful (and hypermedia) design includi
 
 __Event-driven Architecture:__ I have integrated systems using events to provide robust and reliable data consistency, including handling errors and retries against (non event-driven) dependencies.
 
-__Java & Scala:__ My Core development experience is in both Java and Scala production systems. I am comfortable with various parts of Java and Scala ecosystem including Spring, Maven, SBT, Play, Akka.
+__Java & Scala:__ My core development experience is in both Java and Scala production systems. I am comfortable with various parts of Java and Scala ecosystem including Spring, Maven, SBT, Play, Akka.
 
 __Agile:__ I have worked in both Scrum and Kanban and embrace lean thinking.
 
