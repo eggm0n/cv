@@ -2,19 +2,19 @@
 
 I am an experienced software engineer and technical leader with a demonstrated history of product and platform engineering with sustainable product delivery.
 
-I am currently a senior product engineer at Waitrose Digital leading engineering on the Trolley team for waitrose.com
+I am currently a senior software engineer and Tech Lead at Mettle / NatWest Boxed.
 
 :page_facing_up: https://www.linkedin.com/in/jamesfarlow/
 
 ### Skills
 
-I focus on server side functional programming, DevOps, microservices, and agile methodologies. I have significant knowledge of developing backend services for user-facing web applications and integrating systems with event-driven approaches. I am a pragmatic and supportive team leader with experience of mentoring, coaching and people management.
+I focus on server side functional programming, DevOps, microservices, developer productivity and agile methodologies. I have significant knowledge of developing backend services for user-facing web applications and integrating systems with event-driven approaches. I am a pragmatic and supportive team leader with experience of mentoring, coaching and people management.
 
-__Leading Teams:__ I have over 8 years experience leading teams or being the senior practitioner in Agile teams, including ensuring the team’s responsibilities are being met through facilitation, identifying valuable features, making work visible, and running planning, design discussions, retrospectives, and other team meetings.
+__Leading Teams:__ I have over 10 years experience leading teams or being the senior practitioner in Agile teams, including ensuring the team’s responsibilities are being met through facilitation, identifying valuable features, making work visible, and running planning, design discussions, retrospectives, and other team meetings.
 
-__Line Management:__ I have significant experience managing engineers within teams. I also coach and mentor outside of team structures and I am a people manager for product engineers across the technical profession including analysts, developers and quality assurance. 
+__Line Management:__ I have significant experience managing engineers within teams. I can also coach and mentor outside of team structures and I have been a people manager for product engineers across the technical profession including analysts, developers and quality assurance. 
 
-__Architecture:__ I have supported teams to design and build mobile, web and server-side products and APIs. I am familiar with RESTful API design using non-blocking web frameworks and serverless architecture for scaling. I have integrated systems using events to provide robust and reliable data consistency, including handling errors and retries against (non event-driven) dependencies.
+__Architecture:__ I have supported teams to design and build mobile, web and server-side products and APIs. I am familiar with RESTful API design, using non-blocking web frameworks, both kubernetes and serverless architecture for scaling. I have integrated systems using events to provide robust and reliable data consistency, including handling errors and retries against (non event-driven) dependencies.
 
 __Startup:__ I have experience in a startup environment. This involves testing new product ideas for viability and building in a lean manner. I have experienced both successful and unsuccessful products.
 
@@ -24,17 +24,28 @@ __Growing Teams:__ I have lots of experience interviewing candidates, establishi
 
 __Development:__ I am an experienced and empathetic pair programmer. I advocate test driving production code with unit tests, and pragmatic use of integration and end-to-end tests to mitigate risk. I have worked in both Scrum and Kanban and embrace lean thinking.
 
-__DevOps:__ I am familiar with both git flow and trunk based development, short lived PRs, automated tests on merge, automated deployments to various environments. I have built deployment pipelines and automation of cloud native and cloud agnostic solutions in Azure. I have deployed, operated and monitored serverless and kubernetes workloads in production.
+__DevOps:__ I am familiar with both PR and trunk based development, short lived PRs, automated tests on merge, automated deployments to various environments. I have built deployment pipelines and automation of cloud native and cloud agnostic solutions in Azure, AWS and Kubernetes using tools like Jenkins, TeamCity and GitHub actions. I have deployed, operated and monitored serverless and kubernetes workloads in production.
 
-__Java/Scala/Kotlin:__ My core development experience is in Java, Scala and Kotlin production systems. I am comfortable with various parts of Java and Scala ecosystem including Spring, Maven, SBT, Play, Akka.
+__Java/Scala/Kotlin:__ My core development experience is in Java, Scala and Kotlin production systems. I am comfortable with various parts of Java and Scala ecosystem including Spring, Gradle, Maven, SBT, Play, Akka.
 
 ### Employment
 
-#### Senior Product Engineer @ Waitrose Digital - October 2018 to present
+#### Senior Software Engineer @ Mettle / NatWest Boxed - May 2022 to present
 
-Waitrose is undertaking a digital transformation to replatform all of waitrose.com onto AWS and microservices while decomissioning on-premise services. I work in the Buy domain, responsible for the trolley, order and checkout. I am leading the rebuilding of the trolley services that provide trolley, pricing and legal restrictions all running on AWS. We are rebuilding the trolley in Kotlin with Spring Boot WebFlux and dual running it alongside the existing trolley services in order to migrate gradually to the new service. Previous to this, I was leading the team to integrate the AWS order services with downstream order fulfilment systems. I designed and implemented an event-driven architecture connecting order update events from order fulfilment to AWS to keep order history mastered in AWS, and allow orders placed in AWS to be reliably propagated to order fulfilment. To support a phased delivery of these requirements, the architecture was designed to keep both systems in sync until the placing of orders could be fully mastered on AWS. This work allowed customers to view their order history, shop from previous orders and place new orders, with an uninterrupted service while the on-premise servers were decomissioned.
+Mettle is a digital neobank for the self-employed, sole traders and limited companies. I am the Tech Lead for the Get Paid squad, responsible for customer invoicing functionality and Open Banking. This includes maintaining and enhancing services in both Spring Boot and Micronaut using Kafka for event sourcing and CQRS architecture. I have ensured that all our Open Banking services are correctly verified using contract testing in pact and that we have a robust process for mitigating vulnerabilities raised by Snyk and that this is understood and prioritised alongside product work. Prior to this I was in the Production Engineering team - a developer enablement squad focused on improving productivity and removing impediments for other squads. We rolled out GitHub Actions as a replacement for concourse to the engineering teams, created a custom java application to automatically migrate HelmReleases to Argo Applications and used pair/mob programming and Kanban to quickly test and learn. I have written a custom GitHub actions metrics server to report on job scheduling, written custom GitHub actions (bash, javascript, python, babashka), created a PR for adding Server Side Apply to the CNCF (Cloud Native Computing Foundation) Strimzi open source project and hosted open door support sessions for the engineering departmemt.
 
-As the technical Partner in the both the trolley and integration teams, I am responsible for overseeing and reviewing the development work of contractors and offshore staff within the team. I have also taken a fundamental role in defining the technical requirements for the project based on existing business systems, working with the product owner and product manager to achieve a joint understanding of the complicated workstream. Good communication skills have been key to this and my ability to translate between technical and business requirements has been remarked on in all my peer reviews.
+Project highlights include:
+- Continuous deployment of production microservices in AWS and kubernetes serving 100k+ banking customers.
+- Implementing CI/CD pipelines in GitHub actions including build, test, pact verification, snyk scanning, and secure GitOps based deployment to Kubernetes using ArgoCD.
+- Gaining a deeper understanding of Kubernetes, helm charts, Argo CD by debugging developer issues with their pipelines and services.
+- Supporting critical Open Banking services, responding to incidents and fixing bugs affecting customer payments.
+- Joining an established team as Tech Lead and improving team focus on throughput, lowering WIP, prioritisation and team building to encourage more consistent and reliable delivery.
+
+#### Senior Product Engineer @ Waitrose Digital - October 2018 to May 2022
+
+Waitrose is undertaking a digital transformation to replatform all of waitrose.com onto AWS and microservices while decomissioning on-premise services. I worked in the Buy domain, responsible for the trolley, order and checkout. I was leading the rebuilding of the trolley services that provide trolley, pricing and legal restrictions all running on AWS. This included rebuilding the trolley in Kotlin with Spring Boot WebFlux and dual running it alongside the existing trolley services in order to migrate gradually to the new service. Previous to this, I was leading the team to integrate the AWS order services with downstream order fulfilment systems. I designed and implemented an event-driven architecture connecting order update events from order fulfilment to AWS to keep order history mastered in AWS, and allow orders placed in AWS to be reliably propagated to order fulfilment. To support a phased delivery of these requirements, the architecture was designed to keep both systems in sync until the placing of orders could be fully mastered on AWS. This work allowed customers to view their order history, shop from previous orders and place new orders, with an uninterrupted service while the on-premise servers were decomissioned.
+
+As the technical Partner in the both the trolley and integration teams, I was responsible for overseeing and reviewing the development work of contractors and offshore staff within the team. I have also taken a fundamental role in defining the technical requirements for the project based on existing business systems, working with the product owner and product manager to achieve a joint understanding of the complicated workstream. Good communication skills have been key to this and my ability to translate between technical and business requirements has been remarked on in all my peer reviews.
 
 Project highlights include:
 - Developing and deploying production microservices in AWS used by millions of customers and serving 1k+ requests per second
